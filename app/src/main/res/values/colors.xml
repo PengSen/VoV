@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>  -->
+
+    <!--<color name="colorPrimary">#E64A19</color>-->
+    <!--<color name="colorPrimaryDark">#E64A19</color>-->
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorOrangeLight">#FFCCBC</color>
+    <!--三层文字颜色-->
+    <color name="textColor">#212121</color>
+    <color name="textColorLight">#727272</color>
+    <color name="textColorLightLight">#B6B6B6</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_joke_text_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_content_margin"
+            android:paddingRight="@dimen/activity_content_margin"
+            android:textColor="@color/textColorLight"
+            android:textSize="@dimen/text_size_common" />
+
+        <ImageView
+            android:id="@+id/iv_photo_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_content_margin"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+</ScrollView>

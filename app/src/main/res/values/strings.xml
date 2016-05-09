@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoV</string>
+    <string name="image_type">gif</string>
+    <string name="no_internet">竟然没有网络连接!\n抚摸我刷新~</string>
+    <string name="generic_server_down">服务器挂掉啦!( ▼-▼ )\n抚摸我刷新~</string>
+    <string name="generic_error">网络出问题啦！\n抚摸我刷新~</string>
+    <string name="wifi_suggest">建议使用Wifi网络…</string>
+
+</resources>

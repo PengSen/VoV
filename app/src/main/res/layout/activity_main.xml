@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrangeLight"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.sen.vov.widget.PagerSlidingTabStrip
+        android:id="@+id/tabs_main"
+        android:paddingTop="@dimen/activity_content_margin"
+        android:paddingBottom="@dimen/activity_content_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.sen.vov.widget.CustomViewPager
+        android:id="@+id/pager_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/margin_cross"
+        android:src="@drawable/ic_cross"
+        app:elevation="@dimen/fab_elevation"
+        app:rippleColor="@color/colorOrangeLight" />
+
+    <ImageView
+        android:id="@+id/iv_main_fab_joke"
+        style="@style/CrossItemAttrs"
+        android:contentDescription="@null"
+        android:src="@drawable/joke_icon" />
+
+    <ImageView
+        android:id="@+id/iv_main_fab_photo"
+        style="@style/CrossItemAttrs"
+        android:contentDescription="@null"
+        android:src="@drawable/image_icon" />
+
+    <ImageView
+        android:id="@+id/iv_main_fab_sound"
+        style="@style/CrossItemAttrs"
+        android:contentDescription="@null"
+        android:src="@drawable/sound_icon" />
+
+    <!--<ImageView
+        android:id="@+id/iv_main_fab_video"
+        style="@style/CrossItemAttrs"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_sister" />-->
+    <ImageView
+        android:id="@+id/iv_main_fab_me"
+        style="@style/CrossItemAttrs"
+        android:contentDescription="@null"
+        android:src="@drawable/me_icon" />
+
+</android.support.design.widget.CoordinatorLayout>

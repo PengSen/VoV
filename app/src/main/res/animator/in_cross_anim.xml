@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together" android:duration="@integer/anim_common">
+    <objectAnimator
+        android:propertyName="rotation"
+        android:valueTo="45"
+        android:valueType="floatType"/>
+    <objectAnimator
+        android:propertyName="translationZ"
+        android:valueTo="@dimen/fab_press_translation_z"
+        android:valueType="floatType"/>
+</set>
+        <!--android:valueFrom="0"-->

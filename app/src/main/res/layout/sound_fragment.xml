@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tv_suggest_sound_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_content_margin_small"
+        android:background="@color/colorOrangeLight"
+        android:text="@string/wifi_suggest"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_common"
+        android:visibility="gone"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_refresh_sound_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list_sound_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorOrangeLight"
+            android:scrollbars="none">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
